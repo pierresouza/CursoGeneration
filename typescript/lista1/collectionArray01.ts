@@ -1,11 +1,11 @@
-import * as readlineSync from "readline-sync";
+import readlinesync = require("readline-sync");
 
 // Array para armazenar as cores
 let cores = [];
 
 // Solicitar ao usuário que digite 5 cores
 for (let i = 0; i < 5; i++) {
-  let cor = readlineSync.question(`Digite a cor ${i + 1}: `);
+  let cor = readlinesync.question(`Digite a cor ${i + 1}: `);
   cores.push(cor);
 }
 
